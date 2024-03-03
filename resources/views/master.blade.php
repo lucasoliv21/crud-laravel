@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CRUD</title>
     @vite(['resources/css/app.css', 'resources/js/app.js', 'resources/css/tailwind.css'])
+    
 </head>
-<body>
-    @yield('content')
+<body class="bg-stone-200 p-2">
+    <div class="container">
+        @yield('content')
+    </div>
 </body>
-</html>
+</html> 
